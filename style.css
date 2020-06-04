@@ -76,6 +76,7 @@ li {
 
 ul li a:hover {
   color: rgb(89, 190, 230);
+  font-size: 15px;
 }
 
 .image {
@@ -90,7 +91,6 @@ ul li a:hover {
   font-family: fantasy;
   text-align: center;
   padding-top: 20px;
-  
   border-radius: 10px;
   width: 400px;
   margin: 40px auto 0;
@@ -98,6 +98,10 @@ ul li a:hover {
 
 .manu {
   display: flex;
+}
+
+a{
+  text-decoration: none;
 }
 
 .btn1 {
@@ -234,7 +238,7 @@ margin: 50px auto 0;
 
 .myself-right {
 
-  
+
 }
 
 .myself-right {
@@ -269,3 +273,94 @@ margin: 50px auto 0;
   text-align: center;
   margin-top: 40px;
 }
+
+.portfolio {
+}
+
+.portfolio-contents {
+margin: 50px auto 60px;
+width: 800px;
+padding-bottom: 50px;
+border-bottom: 1px solid gray;
+}
+.portfolio-main {
+  height: 80px;
+  width: 800px;
+  font-size: 40px;
+  font-family: udmincho, "ms mincho", "ヒラギノ明朝 pro w3", "hiragino mincho pro", serif;
+  color: #4D4D4D;
+  border-bottom: 1px solid gray;
+}
+
+.portfolio-box {
+  height: 500px;
+  width: 800px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.portfolio-left {
+  height: 450px;
+  width: 300px;
+  margin: 20px 0 0 50px;
+}
+
+.portfolio-right {
+  height: 450px;
+  width: 450px;
+
+}
+
+.portfolio-title {
+  height: 80px;
+  width: 400px;
+  text-align: center;
+  font-size: 32px;
+  margin-left: 30px;
+  border-bottom: 1px solid gray;
+  line-height: 80px;
+  color: #4D4D4D;
+  font-family: udmincho, "ms mincho", "ヒラギノ明朝 pro w3", "hiragino mincho pro", serif;
+}
+
+.portfolio-text {
+  height: 350px;
+  width: 450px;
+}
+
+.portfolio-name {
+  font-size: 15px;
+  
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.portfolio-text a {
+  text-decoration: none;
+  color: rgb(89, 190, 230);
+  font-size: 17px;
+  margin-left: 30px;
+}
+
+.portfolio-text a:hover {
+  color: rgb(7, 148, 203);
+}
+
+.portfolio-pas {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.portfolio-work {
+  height: 150px;
+  width: 400px;
+  margin: 20px 0 0 30px;
+  font-size: 15px;
+  padding-top: 30px;
+  border-top: 1px solid gray;
+}
+
+
