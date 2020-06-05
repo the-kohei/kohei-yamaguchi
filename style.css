@@ -57,24 +57,24 @@ footer {
   width: 160px;
 }
 
-ul li a{
+.navbar ul li a{
   text-decoration: none;
   color: gray;
 }
 
-ul {
+.navbar ul {
   list-style: none;
   display: flex;
   width: 500px;
   
 }
 
-li {
+.navbar ul li {
   padding-left: 30px;
   color: gray;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
   color: rgb(89, 190, 230);
   font-size: 15px;
 }
@@ -207,7 +207,6 @@ display: flex;
 }
 
 .myself-contents {
-height: 600px;
 width: 800px;
 margin: 50px auto 0;
 }
@@ -236,9 +235,36 @@ margin: 50px auto 0;
   margin: auto;
 }
 
-.myself-right {
+.myself-rights {
+  width: 600px;
+  height: 120px;
+  margin: auto;
 
+}
 
+.myself-prof {
+  height: 30px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.myself-text {
+  font-size: 13px;
+}
+
+.myself-language {
+  height: 100px;
+  line-height: 100px;
+}
+
+.myself-language ul {
+  display: flex;
+}
+
+.myself-language ul li {
+font-size: 12px;
+list-style: none;
+margin-right: 15px;
 }
 
 .myself-right {
