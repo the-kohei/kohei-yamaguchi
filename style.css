@@ -110,7 +110,7 @@ a{
   width: 150px;
   text-align: center;
   line-height: 150px;
-  margin: 20px 10px;
+  margin: 30px 30px;
   color: white;
   background-color: rgb(245, 43, 144);
 }
@@ -125,7 +125,7 @@ a{
   width: 150px;
   text-align: center;
   line-height: 150px;
-  margin: 20px 10px;
+  margin: 30px 30px;
   color: white;
   background-color: rgb(89, 190, 230);
 }
@@ -134,20 +134,6 @@ a{
   background-color: skyblue;
 }
 
-.btn3 {
-  height: 150px;
-  border-radius: 50%;
-  width: 150px;
-  text-align: center;
-  line-height: 150px;
-  margin: 20px 10px;
-  color: white;
-  background-color: rgb(193, 181, 13);
-}
-
-.btn3:hover {
-  background-color: darkkhaki;
-}
 
 .content{
   width: 400px;
